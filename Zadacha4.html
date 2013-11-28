@@ -1,0 +1,215 @@
+﻿ <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="Zadacha4.css" />
+    </head>
+    <body>    
+        <ul type="none" id="options">
+           <li class="options">View</li>
+           <li class="options">Edit</li>
+           <li class="options">Help</li>
+        </ul>
+        <div>
+            <textarea name="result" >8854455</textarea>
+            <table id="numbers">
+                <tr>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>0000</td>
+                </tr>
+                <tr class="grey">
+                    <td colspan="4">63</td>
+                    <td colspan="3">47</td>
+                    <td>32</td>
+                </tr>
+                 <tr>
+                    <td>0000</td>
+                    <td>0000</td>
+                    <td>1000</td>
+                    <td>0111</td>
+                    <td>0001</td>
+                    <td>1011</td>
+                    <td>1011</td>
+                    <td>0111</td>
+                </tr>
+                <tr class="grey">
+                    <td colspan="4">31</td>
+                    <td colspan="3">15</td>
+                    <td>0</td>
+                </tr>
+            </table>
+            <table id="functions">
+                <tr>
+                    <td rowspan="3" class="border">
+                        <form>
+                        <input type="radio" name="type1" value="Hex" class="radio"/> <label>Hex</label>  <br />
+                        <input type="radio" name="type1" value="Dec" class="radio"/> <label>Dec</label>  <br />
+                        <input type="radio" name="type1" value="Oct" class="radio"/> <label>Oct</label>  <br />
+                        <input type="radio" name="type1" value="Bin" class="radio"/> <label>Bin</label>  <br />
+                        </form>
+                    </td>
+                    <td class="border"></td>
+                    <td>
+                        <input type="button" value="Mod" class="gradient-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="A" />
+                    </td>
+                    <td>
+                        <input type="button" value="MC" />
+                    </td>
+                    <td>
+                        <input type="button" value="MR" />
+                    </td>
+                    <td>
+                        <input type="button" value="MS" />
+                    </td>
+                    <td>
+                        <input type="button" value="M+" />
+                    </td>
+                    <td>
+                        <input type="button" value="M-" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="(" class="gradient-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value=")" class="gradient-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="B" />
+                    </td>
+                    <td>
+                        <input type="button" value="←" class="gradient-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="CE" class="gradient-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="C" class="gradient-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="±" class="gradient-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="√" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="RoL" class="gradient-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="RoR" class="gradient-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="C" />
+                    </td>
+                    <td>
+                        <input type="button" value="7" class="number-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="8" class="number-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="9" class="number-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="/" class="gradient-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="%" />
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="3" class="border">
+                        <form>
+                        <input type="radio" name="type2" value="Qword" class="radio"/> <label>Qword</label>  <br />
+                        <input type="radio" name="type2" value="Dword" class="radio"/> <label>Dword</label>  <br />
+                        <input type="radio" name="type2" value="Word" class="radio"/> <label>Word</label>  <br />
+                        <input type="radio" name="type2" value="Byte" class="radio"/> <label>Byte</label>  <br />
+                        </form>
+                    </td>
+                    <td>
+                        <input type="button" value="Or" class="gradient-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="Xor" class="gradient-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="D" />
+                    </td>
+                    <td>
+                        <input type="button" value="4" class="number-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="5" class="number-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="6" class="number-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="*" class="gradient-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="1/✗" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="Lsh" class="gradient-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="Rsh" class="gradient-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="E" />
+                    </td>
+                    <td>
+                        <input type="button" value="1" class="number-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="2" class="number-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="3" class="number-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="-" class="gradient-button"/>
+                    </td>
+                    <td rowspan="2">
+                        <input type="button" value="=" id="specialbutton1" class="gradient-button"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="Not" class="gradient-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="And" class="gradient-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="F" />
+                    </td>
+                    <td colspan="2">
+                        <input type="button" value="0" id="specialbutton2" class="number-button"/>
+                    </td>
+                    <td>
+                        <input type="button" value="." />
+                    </td>
+                    <td>
+                        <input type="button" value="+" class="gradient-button"/>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
